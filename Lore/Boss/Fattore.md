@@ -8,7 +8,7 @@ Luogo: campo di patate
 Meccanica di gameplay: usare il doppio salto per saltare le balle di fieno
 
 
----Caratteristiche fische e generali:
+### Caratteristiche fische e generali:
 
 -Fanatico delle macchine, ha mangiato troppe patate ora è impazzito e vuole diventare una macchina. 
 
