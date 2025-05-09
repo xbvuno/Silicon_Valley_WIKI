@@ -23,6 +23,7 @@ In questo modo avrebbe potuto rivoluzionare il mondo a sua immagine, e sotto sot
 -
 
 -
+![scienziato](https://github.com/user-attachments/assets/cdc625d7-fcb6-47f6-988f-3770cde0fd58)
 
 
 
