@@ -18,9 +18,7 @@ Meccanica di gameplay: usare il doppio salto per saltare le balle di fieno
 
 'Quando e' impazzito ha sterminato tutta la sua famiglia
 
-
-
-
+![fattoree](https://github.com/user-attachments/assets/6b3aa0c2-d6e6-461d-8127-f57fd73da99d)
 
 
 
