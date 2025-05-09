@@ -18,7 +18,7 @@ In questo modo avrebbe potuto rivoluzionare il mondo a sua immagine, e sotto sot
 
 
 
----Caratteristiche fisiche e generali:
+## Caratteristiche fisiche e generali:
 
 -
 
@@ -27,7 +27,7 @@ In questo modo avrebbe potuto rivoluzionare il mondo a sua immagine, e sotto sot
 
 
 
----Caratteristiche caratteriali:
+## Caratteristiche caratteriali:
 
 -
 
@@ -35,7 +35,7 @@ In questo modo avrebbe potuto rivoluzionare il mondo a sua immagine, e sotto sot
 
 
 
----Motivazioni e Desideri:
+## Motivazioni e Desideri:
 
 -
 
@@ -43,7 +43,7 @@ In questo modo avrebbe potuto rivoluzionare il mondo a sua immagine, e sotto sot
 
 
 
----Relazioni:
+## Relazioni:
 
 -
 
