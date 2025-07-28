@@ -1,33 +1,24 @@
 In questa sezione troverete le regole da rispettare durante lo sviluppo del gioco così da non impazzire con refactoring continui e spaghetti code.
 
 # Regola n. 1 - Organizzazione del Lavoro
-Prima di iniziare a lavorare ad una funzione, chiedere sempre se qualcuno ci sta già lavorando. Così da non fare lavoro inutile. Per vedere le cose da fare esiste il sito **HacknPlan** dove sono scritte tutte le funzioni da sviluppare. Se non potete vedere il progetto su HacknPlan chiedete ai moderatori di farvi aggiungere.
+Prima di iniziare a lavorare ad una funzione, chiedere sempre se qualcuno ci sta già lavorando. Così da non fare lavoro inutile. Per vedere le cose da fare esiste il sito **HacknPlan** dove sono scritte tutte le funzioni da sviluppare.
 
 # Regola n. 2 - Version Control
 Per il version control del progetto useremo il nostro grande dio GIT.
-Attieniti alle seguenti sotto-regole per non trovarti davanti chilometri e chilometri di conflitti ad ogni commit.
-## Regola 2.1 - Per ogni feature creare un branch
-Il branching system da noi scelto è il seguente:
+In questo caso, per evitare problemi andremo di Pull Requests. Dalla Repository principale ogni dev dovrà fare un Fork e lavorare su di essa alla sua feature, una volta completata si apre una Pull Request per aggiungerla al progetto principale.
 
-main
-	dev
-		**funzione**
-
-Se devi fare una funzione che richiede la preesistenza di un'altra funzione che non è ancora stata inglobata su **dev** crea un branch che deriva da quella funzione (se potete comunicatelo così magari ci organizziamo con i pull).
-## Regola 2.2 - Mai committare sul branch Main
-Mai e poi mai committare sul branch main in quanto è dove c'è la parte di codice funzionante. Ogni milestone si fa il merge su Dev e poi, dopo aver testato a sufficienza, si effettua il merge con il main.
-
-# Regola 3 - Seguite lo schema dello Scene tree
-Seguite lo scene tree descritto [qui](Scene%20Tree.md).
+# Regola n. 3 - Godot Style Guide
+Rispettate il [Godot Style Guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 # Regola 4 - Seguite lo schema del File System
 [Qui](File%20System.md) potete trovare lo schema del File System
 
-# Regola 5 - 🐍🏡snake_case🐍🏡
-Usate lo snake case (🐍🏡) per scrivere i nomi delle variabili.
-Se non sapete cos'è lo snake case, questa è la differenza tra snake case e camel case:
-- snake_case
-- CamelCase
+# Regola 5 - Formattazione testo
+Usare i seguenti stili di formattazione delle variabili in base al loro scopo(secondo il [Godot Style Convenction](https://docs.godotengine.org/en/4.4/tutorials/scripting/gdscript/gdscript_styleguide.html#naming-conventions)):
+- 🐍🏡snake_case🐍🏡 : variabile normale
+- 🏡PascalCase🏡 : nomi classi e nodi
+- 🧢🔒CAPS_LOCK🧢🔒: per i nodi importati nel codice e costanti
+
 # Regola 6 - Estendete le classi
 Se dovete fare una modifica ad una classe o ad uno script cercate di estenderlo.
 In questo modo ci saranno meno conflitti nel codice durante i merge e soprattutto meno errori in caso di modifiche.
@@ -38,7 +29,4 @@ Se scaricate una libreria e dovete apportare una modifica, non modificatela dire
 # Regola 8 - Per qualsiasi dubbio chiedete
 Se avete qualche dubbio riguardante il progetto oppure come fare una determinata cosa, chiedete sul discord e tutto si risolverà😎.
 
-# Regola 9 - Tubozzi
 
-# Regola 10 - Buon Lavoro 🧑‍💻
-Complimenti hai letto tutte e 10 le regole del bravo Game Dev ora sei pronto a gettarti nell'apocalittico mondo di Silicon Valley!
